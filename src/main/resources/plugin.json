@@ -1,11 +1,11 @@
 {
-  "pluginid": "vanillaingotworks",
-  "archivebase": "com.jeffpeng.jmod.vanillaingotworks",
-  "name": "JMOD Vanilla Ingot Works",
+  "pluginid": "hungeroverhaul",
+  "archivebase": "com.jeffpeng.jmod.hungeroverhaul",
+  "name": "JMOD Hunger Overhaul Bindings",
   "description" : "",
   "version"	:	"1.3.1",
   "authors"	: ["SvenKayser"],
   "url" : "",
   "credits" : "",
-  "scriptingobjects" : {"VIW" : "Scripting"}
+  "scriptingobjects" : ""
 }
