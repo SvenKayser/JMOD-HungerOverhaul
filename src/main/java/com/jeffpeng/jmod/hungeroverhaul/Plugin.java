@@ -2,26 +2,20 @@ package com.jeffpeng.jmod.hungeroverhaul;
 
 import iguanaman.hungeroverhaul.HungerOverhaul;
 import iguanaman.hungeroverhaul.config.IguanaConfig;
-
-import java.util.Map;
-
 import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.potion.Potion;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.EntityInteractEvent;
 
 import com.jeffpeng.jmod.JMODPlugin;
 import com.jeffpeng.jmod.JMODPluginContainer;
+import com.jeffpeng.jmod.API.forgeevents.JMODAddBuffsEvent;
 import com.jeffpeng.jmod.crafting.ToolUnbreaker;
-import com.jeffpeng.jmod.forgeevents.JMODAddBuffsEvent;
 import com.jeffpeng.jmod.types.items.CoreBucket;
 
 import cpw.mods.fml.common.Loader;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.eventhandler.EventPriority;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
